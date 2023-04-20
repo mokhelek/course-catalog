@@ -1,54 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-body{
+body {
     font-family: "Poppins", sans-serif;
-    margin:0px;
+    margin: 0px;
     padding: 0px;
 }
 
-
-  nav ul {
+nav ul {
     margin: 0rem;
     padding: 0;
     list-style: none;
     margin-right: 2rem;
-  }
-  
-  nav li {
+}
+
+nav li {
     display: flex;
     justify-content: center;
-  
+
     color: rgb(71, 71, 71);
     padding: 5px 5px 5px 5px;
-  }
-  nav a {
+}
+nav a {
     display: flex;
     padding: 10px;
     color: rgb(71, 71, 71);
     text-decoration: none;
-  }
-  nav a:hover {
+}
+nav a:hover {
     color: #ff58bf;
-  }
+}
 
-
-  #hero-image{
+#hero-image {
     border: 1px rgb(55, 255, 0) solid;
     box-shadow: 6px 15px 20px 3px rgb(160, 159, 159);
     height: 300px;
     width: 300px;
-  }
+}
 
-  #courses-section{
-    background-color: rgb(131, 255, 131);
+#courses-section {
+    background-color: rgb(255, 255, 255);
     padding-bottom: 2rem;
-  }
+}
 
-
-  #data-science-details {
+#course-details {
     display: none;
 }
-    
-#data-science-details-btn:hover + #data-science-details {
+
+#course-details-btn:hover + #course-details {
     display: block;
+}
+
+
+#hero-text{
+  font-weight: 700px;
+  font-size: 3rem;
+  color: rgb(253, 253, 253);
+  text-shadow: 0 0 6px black;
+}
+#hero-subtext{
+  color:rgb(229, 229, 229);
+  text-shadow: 0 0 6px black;
+}
+
+#testimonials-section{
+  background-color: rgb(72, 151, 255);
+  padding-bottom: 2rem;
 }

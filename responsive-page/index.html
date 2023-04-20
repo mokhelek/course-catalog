@@ -10,6 +10,15 @@
     <title>Mokhele Katleho | Responsive Layout</title>
 </head>
     
+    <style>
+        body{
+            background-image: url("/responsive-page/images/photo-1531482615713-2afd69097998.jpeg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+
     <!-- <header id="">
 
         <nav>
@@ -44,7 +53,7 @@
             <div class="row align-items-center justify-content-center" style="height: 550px;" >
                 <div  class="col-md-8">
                     <div>
-                        <h2>Imizamo Youth Programme</h2>
+                        <h2 id="hero-text" >Imizamo Youth Programme</h2>
                     </div>
                     <p>
                         Welcome to the local coding bootcamp brought to you by Imizamo Youth Programme.Fing Out More about what we offer
@@ -52,9 +61,7 @@
                     <a class="btn btn-lg btn-success" href="#">See Our Offers</a>
                 </div>
     
-                <div class="col-md-4">
-                    <img  id="hero-image" class="img-fluid" src="images/640x360.png" alt="">
-                </div>
+              
     
             </div>
         </div>
@@ -70,31 +77,40 @@
          
             <div class="row">
                 <div class="col-lg-4 col-md-6 ">
+                
                     <div class="card">
                         <img class="card-img-top" src="images/640x360.png" alt="">
                         <div class="card-body">
                             <div>
-                                <p style="float: right;" >R 2100</p>
+                                <p style="float: right;" >R 1600</p>
                             </div>
-                            <h6><strong>Python Intro</strong></h6>
+                            <h6><strong>Python Fundamentals </strong></h6>
 
                             <div class="container">
                                 <br>
-                                <div   class="row">
-                                    <div class="col" style="border: 1px rgb(188, 188, 188) solid;width: 100%;">
+                                <div class="row">
+                                    <button id="course-details-btn" class="col" style="border: 1px rgb(188, 188, 188) solid;width: 100%;">
                                         <center>
-
                                             See Details
                                         </center>
-                                     
-                                    </div>
+                                    </button>
+                                 
+                                        <p align="center" id="course-details" >
+                                         
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                           
+                                        </p>
+                                
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
 
                 <div class="col-lg-4 col-md-6 ">
+
                     <div class="card">
                         <img class="card-img-top" src="images/640x360.png" alt="">
                         <div class="card-body">
@@ -106,13 +122,13 @@
                             <div class="container">
                                 <br>
                                 <div class="row">
-                                    <button id="data-science-details-btn" class="col" style="border: 1px rgb(188, 188, 188) solid;width: 100%;">
+                                    <button id="course-details-btn" class="col" style="border: 1px rgb(188, 188, 188) solid;width: 100%;">
                                         <center>
                                             See Details
                                         </center>
                                     </button>
                                  
-                                        <p align="center" id="data-science-details" >
+                                        <p align="center" id="course-details" >
                                          
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                            
@@ -122,33 +138,41 @@
                             </div>
                         </div>
                     </div>
+
+
                 </div>
 
                 <div class="col-lg-4 col-md-6 ">
+    
                     <div class="card">
                         <img class="card-img-top" src="images/640x360.png" alt="">
                         <div class="card-body">
                             <div>
-                                <p style="float: right;" >R 2100</p>
+                                <p style="float: right;" >R 2600</p>
                             </div>
-                            <h6><strong>Python Intro</strong></h6>
+                            <h6><strong>Artificial Intelligence</strong></h6>
 
                             <div class="container">
                                 <br>
-                                <div   class="row">
-                                    <div class="col" style="border: 1px rgb(188, 188, 188) solid;width: 100%;">
+                                <div class="row">
+                                    <button id="course-details-btn" class="col" style="border: 1px rgb(188, 188, 188) solid;width: 100%;">
                                         <center>
-
                                             See Details
                                         </center>
-                                     
-                                    </div>
+                                    </button>
+                                 
+                                        <p align="center" id="course-details" >
+                                         
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                           
+                                        </p>
+                                
                                 </div>
                             </div>
                         </div>
+                        <br>
                     </div>
                 </div>
-
             </div>
 
         </div>
@@ -167,15 +191,24 @@
                 <div class="row justify-content-center" >
                     <div class="col-6">
                         <div>
-                            <img style="width:200px;height: 200px;border-radius: 50%;" src="images/640x360.png" alt=""><br>
+                            <img style="width:200px;height: 200px;border-radius: 50%;" src="/responsive-page/images/60-609253_smile-shapers-men-smile-smiling-man-conditioning-black.jpeg" alt=""><br>
                             * * * * 
                             <span class="d-flex">
-                            <h1>##</h1> 
+                            <button style="background: none;border: none;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                  </svg>
+                            </button>
 
                                 <p>
                                     " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni odit quam nulla quas tempore excepturi. 
                                 </p>  
-                                <h1>##</h1> <br>
+                                <button style="background: none;border: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                      </svg>
+                                </button>
+                                 <br>
                             </span>
                             <h5>Mokhele Katleho</h5>
                         </div>
@@ -186,13 +219,21 @@
         </div>
     </section>
 
-    <br>
-    <br>
-    <br>
 
     <section id="contact-section" >
-        <div class="row">
-            
+        <div class="container">
+
+            <br>
+            <h3>Contact</h3>
+            <br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2> Find us on social media</h2>
+                </div>
+                <div class="col-lg-6">
+                    
+                </div>
+            </div>
         </div>
 
     </section>
@@ -206,17 +247,5 @@
 
 
 
-<!--
-
-<div style="border: 1px red solid;" class="col-md-9">
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, ipsum! Corporis numquam, dolorem ut voluptatibus quia, itaque expedita impedit amet dolor facilis accusamus natus odio rem voluptatem quam quas quisquam.
-</div>
-
-
-<div style="border: 1px red solid;" class="col-md-3">
-    <img class="img-fluid" src="images/640x360.png" alt="hero-image">
-</div>
-
--->
 
 
