@@ -28,3 +28,11 @@ body{
   nav a:hover {
     color: #ff58bf;
   }
+
+
+  #hero-image{
+    border: 1px rgb(55, 255, 0) solid;
+    box-shadow: 6px 15px 20px 3px rgb(160, 159, 159);
+    height: 300px;
+    width: 300px;
+  }
