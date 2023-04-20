@@ -2,6 +2,8 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    margin:0px;
+    padding: 0px;
 }
 
 
@@ -36,3 +38,17 @@ body{
     height: 300px;
     width: 300px;
   }
+
+  #courses-section{
+    background-color: rgb(131, 255, 131);
+    padding-bottom: 2rem;
+  }
+
+
+  #data-science-details {
+    display: none;
+}
+    
+#data-science-details-btn:hover + #data-science-details {
+    display: block;
+}
